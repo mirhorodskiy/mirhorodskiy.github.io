@@ -1,0 +1,54 @@
+.first-row{
+    background-color:#338f8f;
+    color: rgb(12, 35, 78);
+}
+
+.second-row{
+    background-color:#f5f533;
+    color: rgb(12, 35, 78);
+}
+
+.first-row:hover{
+    color:#338f8f;
+    background-color: rgb(12, 35, 78);
+}
+
+.second-row:hover{
+    color:#f5f533;
+    background-color: rgb(12, 35, 78);
+}
+
+
+.square{
+    width: 70px;
+    height: 70px;
+    border:1px solid black;
+    border-radius: 10px;
+    position:absolute;
+}
+
+.yellow{
+    background-color: yellow;
+    transform: rotate(15deg);
+    top:90px;
+}
+
+.pink{
+    background-color: rgb(224, 32, 122);
+    transform: rotate(-15deg);
+    top:90px;
+    left:88px;
+}
+
+.white{
+    background-color: azure;
+    transform: rotate(45deg);
+    left:44px;
+    top:16px
+}
+
+.picture{
+    position: relative;
+}
+
+
